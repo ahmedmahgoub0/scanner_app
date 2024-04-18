@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DocumentScannerApp" parent="android:Theme.Material.Light.NoActionBar" />
+
+
+    <style name="MySplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_brand</item>
+        <item name="windowSplashScreenBackground">#fff</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <item name="postSplashScreenTheme">@style/Theme.DocumentScannerApp</item>
+    </style>
+</resources>
